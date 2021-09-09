@@ -1,0 +1,16 @@
+<select (change)="onChange($event)">
+    <option>select</option>
+    <option value="fnaz">first_name a-z</option>
+    <option value="fnza">first_name z-a</option>
+</select>
+<div class="wrapper">
+    <div *ngIf="loading">
+        <div class="loader">
+        </div>
+    </div>
+    <div class="list" id="list">
+        <div *ngFor="let data of usersData">
+            <app-card [data]="data"></app-card>
+        </div>
+    </div>
+</div>
