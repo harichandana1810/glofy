@@ -1,0 +1,9 @@
+<div class="card" id="card" (click)="route(data)">
+    <img [src]="data?.avatar" [alt]="data.first_name"/>
+    <div class="card__title">
+        {{data.first_name}} {{data.last_name}}
+    </div>
+  
+    {{data.email}}
+ </div>
+ 
