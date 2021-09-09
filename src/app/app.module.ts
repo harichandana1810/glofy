@@ -14,7 +14,6 @@ import { CardComponent } from './components/card/card.component';
     AppComponent,
     ListComponent,
     DetailsComponent,
-    CardComponent
   ],
   imports: [
     BrowserModule,
