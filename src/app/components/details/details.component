@@ -1,0 +1,8 @@
+<div class="card" id="card">
+    <div class="card__title">
+        <h1> {{userData?.first_name}} {{userData?.last_name}}</h1>
+     </div>
+    <img [src]="userData?.avatar" [alt]="userData?.first_name"/>
+    <h3>{{userData?.email}}</h3>
+</div>
+ 
