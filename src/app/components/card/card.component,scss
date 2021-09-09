@@ -1,0 +1,28 @@
+.card{
+    margin: 0.875rem;
+    padding:0.875rem;
+    min-height: 6rem;
+    height: 6rem;
+    overflow: hidden;
+    word-break: break-all ;
+    border-radius:0.5rem;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 5px #ddd;
+    transition: 1s;
+    &:hover{
+        box-shadow: 4px 5px 8px #ddd;
+        cursor: pointer;
+    }
+    &__title{
+        font-weight: 600;
+        color: #2a2d53;
+    }
+    img{
+        height: 4.5rem;
+        border-radius: 100%;
+        float:right;
+        border:2px solid #ddd;
+    }
+
+}
